@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- ==============Media queries============== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--===============BOOTSTRAP LINK============== -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<!-- ==============custom CSS==================-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--=============== Animate CSS ================-->
+	<link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css“>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!--============== Font Awesome ================-->
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--============== GOOGLE font =================-->
+	<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<title>Oak Reserve Winery Login Page</title>
+</head>
+<body>
+	<div id="register" class="container text-center thumbnail">
+		<h1>Welcome to Oak Reserve Winery</h1>
+
+		<h2>Create a profile!<br>Join Us!</h2>
+			
+	<!-- enter your name -->
+	<div class="line">
+				<h3>------Enter your Name------ </h3>
+					<input id="name" placeholder="Name">
+	</div>
+								<br>
+	<!-- enter your last name -->
+	<div class="line">
+				<h3>------Enter your Last Name------</h3>
+					<input id="lastName" placeholder="Last Name">
+	</div>
+								<br>
+	 <!-- gender type -->
+	 <div class="line">
+				<h3>------Gender------</h3>
+				<select>
+					<option class="gender" type="radio" name="gender" value="Female">Female</option>
+					<option class="gender" type="radio" name="gender" value="Male">Male</option>
+					<option class="gender" type="radio" name="gender" value="Other">Other</option>
+				</select>
+	</div>							<br>
+	<!-- phone number -->
+					<h3>------Phone Number------</h3>
+					<input id="phone" type="numbers" name="phone number" placeholder="123-456-7890">
+								<br>
+	<!-- Email address -->
+				<h3>------Email Address------ </h3>
+				<input type="email" id="email" name="email" placeholder="Enter your E-mail">
+								<br>
+	<!-- favorite wine -->
+				<h3>------Have a Favorite type of Wine?------</h3>
+				<select>
+					<option value class="userColor">Have a favorite wine?</option>
+					<option name="Wine" class="userWine" value="Red">Red</option>
+					<option name="Wine" class="userWine" value="Champagne">Champagne</option>
+					<option name="Wine" class="userWine" value="White">White</option>
+				</select>
+	<!-- Birth area -->
+				<h3>------Where are you visiting from?------</h3>
+				<select>
+					<option value class="birth" value="Birth Place"></option>
+					<option class="birth" id="North" type="radio" name="birthplace" value="North America">North America</option>					
+					<option class="birth" id="South"  type="radio" name="birthplace" value="South America">South America</option>
+					<option class="birth" id="Asia" type="radio" name="birthplace" value="Asia">Asia</option>
+					<option class="birth" id="africa"  type="radio" name="birthplace" value="Africa">Africa</option>
+					<option class="birth" id="europe" type="radio" name="birthplace" value="Europe">Europe</option>
+				</select>
+	<!-- bio information -->
+								<br>
+				<!-- <h3>Tell us something about yourself</h3>
+				<textarea id="bio" maxlength="140" rows="4" cols="50"></textarea>
+								<br> -->
+	<!-- button -->
+			<div class="text-center">
+				<button id="btn" class="btn-success text-center">Confirm</button>
+			</div>
+
+			
+		<div id="results"></div>
+</div>
+		
+		<div id="updatedProfile" class="thumbnail text-center">
+				<!-- <h1>Thank you!</h1> -->
+				<h3 id="regName"></h3>
+				<h3 id="regGender"></h3>
+				<h3 id="regPhone"></h3>
+				<h3 id="regEmail"></h3>
+				<h3 id="regWine"></h3>
+				<h3 id="regBirth"></h3>
+
+			<!-- <button id="btn1"></button> -->
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ================Jquery CDN =================-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<!-- =================CUSTOM ===================-->
+
+<!-- ================Bootstrap==================-->
+<!-- <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

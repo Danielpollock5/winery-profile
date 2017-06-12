@@ -1,0 +1,46 @@
+
+body{
+	background-image: url('../images/background-image.jpg');
+}
+.thumbnail{
+	background-color: transparent;
+	/*border-color: transparent;*/
+	margin: 50px auto;
+}
+h1, h2, h3{
+	color: #EEFFA9;
+}
+h3{
+	font-weight: 200;
+}
+h2{
+	font-weight: 400;
+}
+h1{
+	font-weight: 900;
+}
+
+.line{
+	display: inline-block;
+}
+input.gender{
+	font-size: 10px;
+}
+
+.btn:hover{
+	background-color: orange;
+
+}
+
+.birth{
+	display: inline-block;
+}
+#updatedProfile{
+	border-color: transparent;
+	margin: 175px auto;
+}
+#results{
+	margin: 25px 0;
+	font-size: 30px;
+	color: #EEFFA9;
+}
